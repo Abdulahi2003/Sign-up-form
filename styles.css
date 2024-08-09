@@ -7,9 +7,25 @@ h1 {
     font-family: Norse-Bold, sans-serif;
 }
 
+.body{
+    margin: 0;
+    padding: 0;
+}
 .main{
     display: flex;
     flex-direction: row;
     width: 100vw;
+    height: 100vh;
+}
+
+.left{
+   background-image: url(./img/odinbackground.jpg);
+   width: 35vw;
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+
+.right {
+    display: flex;
     justify-content: center;
 }
