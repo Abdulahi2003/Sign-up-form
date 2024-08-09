@@ -74,6 +74,12 @@ input:focus{
 input:invalid{
     border: 1px solid red;
 }
+
+#error{
+    color: red;
+    font-size: 15px;
+    margin: 1px;
+}
 .third{
     height: 30vh;
 }
