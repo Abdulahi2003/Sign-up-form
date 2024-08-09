@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+h1 {
+    font-family: Norse-Bold, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+}
