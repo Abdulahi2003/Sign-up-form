@@ -44,6 +44,7 @@
 .second{
     height: 35vh;
     background-color: white;
+    box-shadow: 2px 5px #e5e7eb;
 }
 
 .form-main-div{
@@ -75,11 +76,58 @@ input:invalid{
     border: 1px solid red;
 }
 
+label {
+    font-size: 10px;
+    color: #3b3b3c;
+}
 #error{
     color: red;
     font-size: 15px;
     margin: 1px;
 }
+
+.btn-green{
+    background-color: #596d48;
+    color: white;
+    border: 1px solid #596d48;
+    border-radius: 10px;
+    height: 40px;
+    width: 175px;
+    box-shadow: 2px 5px #e5e7eb;
+}
+
 .third{
     height: 30vh;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.link{
+    font-size: small;
+}
+a.login{
+    color: #596d48;
+    text-decoration: none;
+    font-weight: bold;
+} 
+a.footer{
+    color: white
+}
+
+.p-footer{
+    font-size: 10px;
+    text-align: center;
+}
+
+.forImage{
+    height: 40vh;
+}
+
+.forFooter{
+    display: flex;
+    height: 6vh;
+    justify-content: ;
+    width: 35vh;
 }
