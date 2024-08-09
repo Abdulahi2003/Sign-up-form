@@ -26,18 +26,24 @@
 .right {
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    width: 65VW;
 }
 
 .empty{
-    height: 15vh;
+    height: 10vh;
 }
 
 .first{
     height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .second{
-    height: 30vh;
+    height: 35vh;
+    background-color: white;
 }
 
 .third{
