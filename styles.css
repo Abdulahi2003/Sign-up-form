@@ -123,11 +123,24 @@ a.footer{
 
 .forImage{
     height: 40vh;
+    display: flex;
+    align-items: flex-end;
 }
 
 .forFooter{
     display: flex;
-    height: 6vh;
-    justify-content: ;
-    width: 35vh;
+    height: 60vh;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    font-family: Norse-Bold, sans-serif;
 }
